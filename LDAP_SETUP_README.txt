@@ -3,3 +3,6 @@ docker run -d --restart unless-stopped --name openldap -p 389:389 -v ldap-vol:/a
 docker run -d --restart unless-stopped -p 7171:80  --name lam --volumes-from lam-volume  --link openldap:ldap  mwaeckerlin/lam
 user default password "lam" to change server setting/profile
 change security to cn=admin
+
+Download Visual Studio C++ build tool
+https://visualstudio.microsoft.com/visual-cpp-build-tools/
